@@ -1,17 +1,17 @@
 Add a .env file with OWM_API_KEY after creating one via OpenWeatherMap
 
 Open Weather Documentation: 
-https://github.com/briandowns/openweathermap
-https://pkg.go.dev/github.com/briandowns/openweathermap
-https://openweathermap.org/current
+- https://github.com/briandowns/openweathermap
+- https://pkg.go.dev/github.com/briandowns/openweathermap
+- https://openweathermap.org/current
 
 Run:
-`
+```
 go run .\main.go .\weather.go .\getenv.go
-`
+```
 
 Sample Output:
-`
+```
 Welcome to your day planner. Please select the following:
 1) Show me what I can do today!
 2) Add an interesting activity
@@ -36,4 +36,4 @@ Sunbathing
 Reading
 Cycling
 Yoga
-`
+```
